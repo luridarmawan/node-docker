@@ -11,7 +11,7 @@ Based on:
 
 USAGE:
 
-```
+```bash
 docker run -it --rm --name node -v "$PWD":/projects luri/node
 ```
 
