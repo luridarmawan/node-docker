@@ -15,3 +15,4 @@ USAGE:
 docker run -it --rm --name node -v "$PWD":/projects luri/node
 ```
 
+![luri/node](docs/console.png)
