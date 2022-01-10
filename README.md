@@ -12,6 +12,6 @@ Based on:
 USAGE:
 
 ```
-docker run -it --rm --name fp -v "$PWD":/projects luri/node
+docker run -it --rm --name node -v "$PWD":/projects luri/node
 ```
 
