@@ -18,6 +18,7 @@ jobs:
           password: ${{ secrets.DOCKER_TOKEN }}
       -
         name: Build the Docker image
+        uses: actions/checkout@v2
         run: docker build . --file Dockerfile --tag luri/node:$(date +%s)
       -
         name: Logout
