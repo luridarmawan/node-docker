@@ -16,7 +16,6 @@ jobs:
           username: ${{ secrets.DOCKER_USER }}
           password: ${{ secrets.DOCKER_TOKEN }}
       - name: Build the Docker image
-        uses: actions/cache@v1
         run: docker build . --file Dockerfile --tag luri/node:$(date +%s)
       - name: Logout
         run: docker logout
