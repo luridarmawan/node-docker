@@ -1,0 +1,15 @@
+{
+  "name": "api",
+  "description": "Simple API Example",
+  "main": "app.js",
+  "bin": "app.js",
+  "author": "Luri Darmawan",
+  "homepage": "https://carik.id",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
