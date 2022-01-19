@@ -52,6 +52,11 @@ Result:
 {"code":0,"body":{"name":"my name"},"text":"POST success"}
 ```
 
+### Resource
+
+- [Nodejs Docker Repository](https://hub.docker.com/repository/docker/luri/node)
+
+
 ---
 
 Built by (c) Luri Darmawan and contributors. Released under the MIT license.
